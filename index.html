@@ -6,36 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header></header>
-    <a href="./index.html"><img src="./images/Logo.svg" alt="Logo"></a>
-    <nav>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services and prices</a></li>
-            <li><a href="#">Barbers</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-    </nav>
-    <a href="tel:+380441111111">+38 044 111 11 11</a>
-    <button type="button">Online-booking</button>
-
+    <header class="header">
+        <a href="./index.html" class="header-logo"><img src="./images/Logo.svg" alt="Logo"></a>
+        <nav class="header-nav">
+            <ul class="header-list list">
+                <li><a href="#" class="header-link link">About</a></li>
+                <li><a href="#" class="header-link link">Services and prices</a></li>
+                <li><a href="#" class="header-link link">Barbers</a></li>
+                <li><a href="#" class="header-link link">Contacts</a></li>
+            </ul>
+        </nav>
+        <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+        <button type="button" class="header-btn">Online-booking</button>
+    </header>
     <main>
-        <section>
-            <p>A hair salon for men in Kyiv</p>
-            <h1>BarberShop</h1>
-            <p>We are experts in trendy men’s haircuts.
+        <section class="hero">
+            <p class="sub-title">A hair salon for men in Kyiv</p>
+            <h1 class="title">BarberShop</h1>
+            <p class="hero-text">We are experts in trendy men’s haircuts.
                 We work quickly, carefully and with style.</p>
-            <ul>
-                <li><a href="https://www.instagram.com/" rel="noopener nofollow noreferrer">Instagram</a></li>
-                <li><a href="https://www.youtube.com/" rel="noopener nofollow noreferrer">Youtube</a></li>
+            <ul class="hero-list list">
+                <li><a href="https://www.instagram.com/" rel="noopener nofollow noreferrer"
+                        class="hero-links link">Instagram</a></li>
+                <li><a href="https://www.youtube.com/" rel="noopener nofollow noreferrer"
+                        class="hero-links link">Youtube</a></li>
             </ul>
         </section>
 
         <section>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/about_1.jpg" alt="barber works"></li>
                 <li><img src="./images/about_2.jpg" alt="barber cuts hair"></li>
             </ul>

@@ -1,0 +1,15 @@
+:root{
+    --main-color-text: #FFFFFF;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
