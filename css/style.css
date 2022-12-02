@@ -135,10 +135,6 @@ header .container {
 }
 
 /* ----------hero------------*/
-.hero {
-    background-color: rgb(44, 43, 43);
-}
-
 .hero .container {
     display: flex;
 }
