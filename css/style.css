@@ -63,7 +63,8 @@ body {
 /* ----------header------------*/
 
 header {
-    background-color: grey;
+position: absolute;
+width: 100%;
 }
 
 header .container {
@@ -152,10 +153,29 @@ header .container {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.hero-list {
+.hero-social {
     width: 100px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 47px;
+    padding-bottom: 40px;
 }
 
+.hero-list {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin: bottom left;
+    gap: 40px;
+}
+
+.hero-list::before {
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: var(--primary-header-color);
+
+}
 .sub-title {
     font-weight: 600;
     font-size: 11px;
