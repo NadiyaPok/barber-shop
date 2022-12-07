@@ -89,7 +89,7 @@
                         always "on the same wave" with clients. Therefore, we are always
                         ready to improve everyone who comes to us!
                     </p>
-                    <button type="button" class="button about-btn">
+                    <button type="button" class="button about-btn" data-modal-open>
                         ONLINE-BOOKING
                     </button>
                 </div>
@@ -139,7 +139,7 @@
                         </li>
                     </ul>
                 </div>
-                <button type="button" class="button price-btn">ONLINE-BOOKING</button>
+                <button type="button" class="button price-btn" data-modal-open>ONLINE-BOOKING</button>
             </div>
         </section>
 
@@ -368,10 +368,25 @@
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
         </button>
-        <p class="modal-heading">Contact us</p>
+        <p class="modal-heading">Connect with us</p>
         <form action="">
-            <input type="text" class="modal-input" placeholder="Enter your name">
-        <button type="submit">Submit</button>
+            <div class="modal-input-group">
+                <label for="name">Enter your name</label>
+            <input type="text" class="modal-input" placeholder="Name" name="name" required id="name">
+        </div>
+        <div class="modal-input-group">
+            <label for="email">Enter your email</label>
+            <input type="email" class="modal-input" placeholder="Email" name="email" id="email">
+        </div>
+        <div class="modal-input-group">
+            <label for="phone">Enter your phone</label>
+            <input type="tel" class="modal-input" placeholder="Phone" name="phone" id="phone" required>
+        </div>
+        <div class="modal-input-group">
+            <label for="textarea">Your message</label>
+        <textarea name="comment" id="comment" class="modal-comments" placeholder="Type your comments"></textarea>    
+        </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
     </div>
