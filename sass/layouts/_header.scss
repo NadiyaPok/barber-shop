@@ -1,0 +1,53 @@
+/* ----------header------------*/
+
+header {
+  position: absolute;
+  width: 100%;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-list {
+    display: flex;
+    > li:not(:last-child) {
+        margin-right: 30px;
+    }
+  }
+}
+
+.header-logo {
+  padding: 32px 0px;
+  display: block;
+  margin-right: 130px;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-link-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header-cont {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--primary-link-color);
+  margin-right: 40px;
+}
+
+.header-btn {
+  color: var(--second-color);
+}
