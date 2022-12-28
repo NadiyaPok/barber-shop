@@ -59,6 +59,11 @@ body {
   --second-margin: 42px;
 }
 
+.barbers-soc-link, .hero-list, header .container, .sub-title {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -97,8 +102,6 @@ body {
   text-transform: uppercase;
   color: var(--sub-title-color);
   margin-bottom: var(--main-margin);
-  display: flex;
-  align-items: center;
   gap: 20px;
 }
 .sub-title::before {
@@ -117,14 +120,9 @@ body {
   max-width: 370px;
 }
 
-/* ----------header------------*/
 header {
   position: absolute;
   width: 100%;
-}
-header .container {
-  display: flex;
-  align-items: center;
 }
 header .header-list {
   display: flex;
@@ -192,8 +190,6 @@ header .header-list > li:not(:last-child) {
 }
 
 .hero-list {
-  display: flex;
-  align-items: center;
   transform: rotate(-90deg) translateY(100%);
   transform-origin: bottom left;
   gap: 40px;
@@ -472,9 +468,7 @@ header .header-list > li:not(:last-child) {
 }
 
 .barbers-soc-link {
-  display: flex;
   justify-content: center;
-  align-items: center;
   background-color: var(--second-color);
   border-radius: 50%;
   width: 100%;

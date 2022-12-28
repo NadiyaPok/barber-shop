@@ -58,9 +58,8 @@
 }
 
 .barbers-soc-link {
-    display: flex;
+    @extend %flex-align;
     justify-content: center;
-    align-items: center;
     background-color: var(--second-color);
     border-radius: 50%;
     width: 100%;

@@ -1,11 +1,8 @@
-/* ----------header------------*/
-
 header {
   position: absolute;
   width: 100%;
   .container {
-    display: flex;
-    align-items: center;
+    @extend %flex-align;
   }
 
   .header-list {
